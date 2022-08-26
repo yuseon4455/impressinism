@@ -1,0 +1,418 @@
+/* reset */
+:root {
+    --brand-color : #000000;
+    --bg-color : #F9FE00;
+    --pc-header-height: 151px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main-header */
+#main-header {
+    width: 100%;
+    height: 151px;
+    background: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img {
+    padding-left: 30px;
+}
+
+#main-header .nav-bg {
+    position: absolute;
+    width: 100%;
+    height: 151px;
+    background: #fff;
+    opacity: 0.6;
+    left: 0;
+    top: 90px;
+    display: none;
+}
+
+#main-header nav {
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+
+#main-header nav ul.gnb {
+    width: 100%;
+}
+
+#main-header nav ul.gnb>li {
+    width: 20%;
+    float: left;
+    position: relative;
+}
+
+#main-header nav ul.gnb>li>a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 28px;
+}
+
+#main-header nav ul.gnb>li:hover>a {
+    color : #fff;
+}
+
+#main-header nav ul.gnb>li>ul.sub {
+    width: 100%;
+    height: 210px;
+    display: none;
+}
+
+#main-header nav ul.gnb>li>ul.sub>li {
+    width: 100%;
+    line-height: 60px;
+    font-size: 22px;
+}
+
+#main-header nav ul.gnb>li>ul.sub>li>a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: #fff;
+}
+
+#main-header nav ul.gnb>li>ul.sub>li:hover>a {
+    color: #000;
+    font-weight: 700;
+}
+
+
+/* section01 */
+#section01-impressionism {
+    height: 982px;
+    background-color: #000;
+}
+
+#section01-impressionism img{
+    width: 100%;
+    height: 982px;
+}
+
+.main-p{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.main-p p{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 110px;
+    padding-left: 110px;
+}
+
+.main-p span{
+    color: #fff;
+}
+
+/* section02 */
+#section02-impressionism{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 982px;
+    background-color: #000;
+}
+
+.biographer img {
+    padding-left: 30px;
+    opacity: 0.75;
+    transition: 1s;
+  }
+  
+.biographer img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+.first {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 34px;
+}
+
+.biographer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.biographer p{
+    padding-top: 10px;
+    color: #fff;
+}
+
+/* section03 */
+#section03-impressionism{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 982px;
+    background-color: #000;
+    outline: 1px solid #fff;
+}
+
+.last-artist img {
+    padding-left: 30px;
+    opacity: 0.75;
+    transition: 1s;
+  }
+  
+.last-artist img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+.second {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 34px;
+}
+
+.last-artist p{
+    padding-top: 10px;
+    color: #fff;
+}
+
+.last-artist {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 마네 css */
+#section01-Manet{
+    height: 982px;
+    background-color: #000;
+}
+
+.main-manet{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid #fff;
+}
+
+.main-manet h1{
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.main-manet p{
+    color: #fff;
+}
+
+.container-manet {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    outline: 1px solid red;
+}
+
+#section01-Manet .col p {
+    font-weight: 300;
+    font-size: 26px;
+    color: #fff;
+    padding-right: 40px;
+}
+
+/* section02-manet */
+#section02-Manet{
+    height: 982px;
+    background-color: #000;
+    outline: 1px solid #fff;
+}
+
+.container-manet-1 {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    outline: 1px solid red;
+}
+
+.manet-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.manet-1 {
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.manet-1 h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.container-manet-1 p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+    padding-left: 40px;
+}
+
+/* section03-manet */
+#section03-Manet{
+    height: 982px;
+    background-color: #000;
+    outline: 1px solid #fff;
+}
+
+.container-manet-2 {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    outline: 1px solid red;
+}
+
+.manet-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.manet-2 h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.container-manet-2 p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+    padding-right: 40px;
+}
+
+/* section04-manet */
+#section04-Manet{
+    height: 982px;
+    background-color: #000;
+    outline: 1px solid #fff;
+}
+
+.container-manet-3 {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    outline: 1px solid red;
+}
+
+.manet-3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.manet-3 h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.container-manet-3 p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+    padding-left: 40px;
+}
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 176px;
+    background: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    position: absolute;
+    left: 30px;
+}
+
+.footer-container p{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #fff;
+}
