@@ -20,6 +20,7 @@
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    outline: 1px solid #fff;
 }
 
 .container {
@@ -214,6 +215,10 @@
 #section01-Manet{
     height: 982px;
     background-color: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-manet{
@@ -223,18 +228,14 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    outline: 1px solid #fff;
-}
-
-.main-manet h1{
     color: #fff;
-    padding-top: 50px;
-    padding-bottom: 10px;
     font-size: 30px;
 }
 
 .main-manet p{
-    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 19px;
 }
 
 .container-manet {
@@ -244,7 +245,6 @@
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    outline: 1px solid red;
 }
 
 #section01-Manet .col p {
@@ -259,6 +259,10 @@
     height: 982px;
     background-color: #000;
     outline: 1px solid #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-manet-1 {
@@ -268,23 +272,17 @@
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    outline: 1px solid red;
 }
 
 .manet-1{
     width: 100%;
     display: flex;
-    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
-}
-
-.manet-1 {
     color: #fff;
-    padding-top: 50px;
-    padding-bottom: 10px;
     font-size: 30px;
+    padding-bottom: 50px;
 }
 
 .manet-1 h1{
@@ -303,7 +301,10 @@
 #section03-Manet{
     height: 982px;
     background-color: #000;
-    outline: 1px solid #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-manet-2 {
@@ -313,25 +314,22 @@
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    outline: 1px solid red;
 }
 
 .manet-2{
     width: 100%;
     display: flex;
-    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
     color: #fff;
-    padding-top: 50px;
-    padding-bottom: 10px;
     font-size: 30px;
+    padding-bottom: 50px;
 }
 
 .manet-2 h1{
     padding-bottom: 15px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #fff
 }
 
 .container-manet-2 p{
@@ -345,6 +343,10 @@
 #section04-Manet{
     height: 982px;
     background-color: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     outline: 1px solid #fff;
 }
 
@@ -355,20 +357,17 @@
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    outline: 1px solid red;
 }
 
 .manet-3{
     width: 100%;
     display: flex;
-    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
     color: #fff;
-    padding-top: 50px;
-    padding-bottom: 10px;
     font-size: 30px;
+    padding-bottom: 50px;
 }
 
 .manet-3 h1{
@@ -381,6 +380,45 @@
     font-weight: 300;
     font-size: 26px;
     padding-left: 40px;
+}
+
+/* introduce */
+#section01-intro{
+    height: 982px;
+    background-color: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-intro{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-intro h1{
+    color: #F9FE00;
+    font-size: 32px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+.container-intro{
+    margin: 0 auto;
+    width: 1440px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-intro p{
+    padding-top: 50px;
+    color: #fff;
+    font-size: 28px;
 }
 
 
