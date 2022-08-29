@@ -121,7 +121,7 @@
     justify-content: center;
     color: #000;
     font-size: 110px;
-    padding-left: 110px;
+    padding-left: 120px;
 }
 
 .main-p span{
@@ -147,7 +147,7 @@
   
 .biographer img:hover {
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1.25);
   }
 
 .first {
@@ -189,7 +189,7 @@
   
 .last-artist img:hover {
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
 .second {
@@ -251,7 +251,7 @@
     font-weight: 300;
     font-size: 26px;
     color: #fff;
-    padding-right: 40px;
+    padding-right: 60px;
 }
 
 /* section02-manet */
@@ -294,7 +294,7 @@
     color: #fff;
     font-weight: 300;
     font-size: 26px;
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
 /* section03-manet */
@@ -336,7 +336,7 @@
     color: #fff;
     font-weight: 300;
     font-size: 26px;
-    padding-right: 40px;
+    padding-right: 60px;
 }
 
 /* section04-manet */
@@ -379,7 +379,177 @@
     color: #fff;
     font-weight: 300;
     font-size: 26px;
-    padding-left: 40px;
+    padding-left: 60px;
+}
+/* 르누아르 css */
+#section01-Renoir{
+    height: 982px;
+    background-color: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-Renoir{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.main-Renoir p{
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 19px;
+}
+
+.container-Renoir {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#section01-Renoir .col p {
+    font-weight: 300;
+    font-size: 26px;
+    color: #fff;
+    padding-left: 60px;
+}
+
+/* section02-Renoir */
+#section02-Renoir{
+    height: 982px;
+    background-color: #000;
+    outline: 1px solid #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-Renoir-1 {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Renoir-1{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.Renoir-1 h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.container-Renoir-1 p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+    padding-right: 60px;
+}
+
+/* section03-Renoir*/
+#section03-Renoir{
+    height: 982px;
+    background-color: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-Renoir-2 {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Renoir-2{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.Renoir-2 h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff
+}
+
+.container-Renoir-2 p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+    padding-left: 60px;
+}
+
+/* section04-Renoir*/
+#section04-Renoir{
+    height: 982px;
+    background-color: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    outline: 1px solid #fff;
+}
+
+.container-Renoir-3 {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Renoir-3{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.Renoir-3 h1{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+.container-Renoir-3 p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 26px;
+    padding-right: 60px;
 }
 
 /* introduce */
