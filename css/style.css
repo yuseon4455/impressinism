@@ -211,8 +211,8 @@
     justify-content: center;
 }
 
-/* 마네 css */
-#section01-Manet{
+/* 마네,모네,고갱,쇠라 css */
+#section01-Manet, #section01-Monet, #section01-Gauguin,#section01-Seurat{
     height: 982px;
     background-color: #000;
     display: flex;
@@ -221,7 +221,7 @@
     justify-content: center;
 }
 
-.main-manet{
+.main-manet, .main-monet, .main-gauguin, .main-seurat{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -232,13 +232,13 @@
     font-size: 30px;
 }
 
-.main-manet p{
+.main-manet p, .main-monet p, .main-gauguin p, .main-seurat p{
     padding-top: 10px;
     padding-bottom: 50px;
     font-size: 19px;
 }
 
-.container-manet {
+.container-manet ,.container-monet, .container-gauguin,.container-seurat{
     width: 1400px;
     margin: 0 auto;
     display: flex;
@@ -247,7 +247,7 @@
     justify-content: space-between;
 }
 
-#section01-Manet .col p {
+#section01-Manet .col p , #section01-Monet .col p, #section01-Gauguin .col p, #section01-Seurat .col p{
     font-weight: 300;
     font-size: 26px;
     color: #fff;
@@ -255,7 +255,7 @@
 }
 
 /* section02-manet */
-#section02-Manet{
+#section02-Manet, #section02-Monet, #section02-Gauguin, #section02-Seurat{
     height: 982px;
     background-color: #000;
     outline: 1px solid #fff;
@@ -265,7 +265,7 @@
     justify-content: center;
 }
 
-.container-manet-1 {
+.container-manet-1, .container-monet-1,.container-gauguin-1, .container-seurat-1{
     width: 1400px;
     margin: 0 auto;
     display: flex;
@@ -274,7 +274,7 @@
     justify-content: space-between;
 }
 
-.manet-1{
+.manet-1, .monet-1, .gauguin-1, .seurat-1{
     width: 100%;
     display: flex;
     text-align: center;
@@ -285,12 +285,12 @@
     padding-bottom: 50px;
 }
 
-.manet-1 h1{
+.manet-1 h1, .monet-1 h1 ,.gauguin-1 h1, .seurat-1 h1{
     padding-bottom: 15px;
     border-bottom: 1px solid #fff;
 }
 
-.container-manet-1 p{
+.container-manet-1 p, .container-monet-1 p ,.container-gauguin-1 p, .container-seurat-1 p{
     color: #fff;
     font-weight: 300;
     font-size: 26px;
@@ -298,7 +298,7 @@
 }
 
 /* section03-manet */
-#section03-Manet{
+#section03-Manet ,#section03-Monet, #section03-Gauguin, #section03-Seurat{
     height: 982px;
     background-color: #000;
     display: flex;
@@ -307,7 +307,7 @@
     justify-content: center;
 }
 
-.container-manet-2 {
+.container-manet-2 , .container-monet-2,.container-gauguin-2, .container-seurat-2{
     width: 1400px;
     margin: 0 auto;
     display: flex;
@@ -316,7 +316,7 @@
     justify-content: space-between;
 }
 
-.manet-2{
+.manet-2, .monet-2, .gauguin-2, .seurat-2{
     width: 100%;
     display: flex;
     text-align: center;
@@ -327,12 +327,12 @@
     padding-bottom: 50px;
 }
 
-.manet-2 h1{
+.manet-2 h1 , .monet-2 h1, .gauguin-2 h1, .seurat-2 h1{
     padding-bottom: 15px;
     border-bottom: 1px solid #fff
 }
 
-.container-manet-2 p{
+.container-manet-2 p, .container-monet-2 p, .container-gauguin-2 p, .container-seurat-2 p{
     color: #fff;
     font-weight: 300;
     font-size: 26px;
@@ -340,7 +340,7 @@
 }
 
 /* section04-manet */
-#section04-Manet{
+#section04-Manet, #section04-Monet ,#section04-Gauguin, #section04-Seurat{
     height: 982px;
     background-color: #000;
     display: flex;
@@ -350,7 +350,7 @@
     outline: 1px solid #fff;
 }
 
-.container-manet-3 {
+.container-manet-3 , .container-monet-3, .container-gauguin-3 ,.container-seurat-3{
     width: 1400px;
     margin: 0 auto;
     display: flex;
@@ -359,7 +359,7 @@
     justify-content: space-between;
 }
 
-.manet-3{
+.manet-3, .monet-3, .gauguin-3, .seurat-3{
     width: 100%;
     display: flex;
     text-align: center;
@@ -370,19 +370,21 @@
     padding-bottom: 50px;
 }
 
-.manet-3 h1{
+.manet-3 h1, .monet-3 h1, .gauguin-3 h1, .seurat-3 h1{
     padding-bottom: 15px;
     border-bottom: 1px solid #fff;
 }
 
-.container-manet-3 p{
+.container-manet-3 p ,.container-monet-3 p, .container-gauguin-3 p, .container-seurat-3 p{
     color: #fff;
     font-weight: 300;
     font-size: 26px;
     padding-left: 60px;
 }
-/* 르누아르 css */
-#section01-Renoir{
+
+
+/* 르누아르,드가,고흐,세잔 css */
+#section01-Renoir, #section01-Degas, #section01-Gogh,#section01-Cezanne{
     height: 982px;
     background-color: #000;
     display: flex;
@@ -391,7 +393,7 @@
     justify-content: center;
 }
 
-.main-Renoir{
+.main-Renoir ,.main-degas,.main-gogh,.main-cezanne{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -402,13 +404,13 @@
     font-size: 30px;
 }
 
-.main-Renoir p{
+.main-Renoir p, .main-degas p, .main-gogh p,.main-cezanne p{
     padding-top: 10px;
     padding-bottom: 50px;
     font-size: 19px;
 }
 
-.container-Renoir {
+.container-Renoir ,.container-degas,.container-gogh,.container-cezanne{
     width: 1400px;
     margin: 0 auto;
     display: flex;
@@ -417,7 +419,7 @@
     justify-content: space-between;
 }
 
-#section01-Renoir .col p {
+#section01-Renoir .col p ,#section01-Degas .col p, #section01-Gogh .col p, #section01-Cezanne .col p{
     font-weight: 300;
     font-size: 26px;
     color: #fff;
@@ -425,7 +427,7 @@
 }
 
 /* section02-Renoir */
-#section02-Renoir{
+#section02-Renoir, #section02-Degas, #section02-Gogh, #section02-Cezanne{
     height: 982px;
     background-color: #000;
     outline: 1px solid #fff;
@@ -435,8 +437,8 @@
     justify-content: center;
 }
 
-.container-Renoir-1 {
-    width: 1400px;
+.container-Renoir-1 ,.container-degas-1,.container-gogh-1,.container-cezanne-1{
+    width: 1380px;
     margin: 0 auto;
     display: flex;
     text-align: center;
@@ -444,7 +446,7 @@
     justify-content: space-between;
 }
 
-.Renoir-1{
+.Renoir-1, .degas-1,.gogh-1,.cezanne-1{
     width: 100%;
     display: flex;
     text-align: center;
@@ -455,12 +457,12 @@
     padding-bottom: 50px;
 }
 
-.Renoir-1 h1{
+.Renoir-1 h1, .degas-1 h1,.gogh-1 h1,.cezanne-1 h1{
     padding-bottom: 15px;
     border-bottom: 1px solid #fff;
 }
 
-.container-Renoir-1 p{
+.container-Renoir-1 p, .container-degas-1 p,.container-gogh-1 p,.container-cezanne-1 p{
     color: #fff;
     font-weight: 300;
     font-size: 26px;
@@ -468,7 +470,7 @@
 }
 
 /* section03-Renoir*/
-#section03-Renoir{
+#section03-Renoir, #section03-Degas ,#section03-Gogh, #section03-Cezanne{
     height: 982px;
     background-color: #000;
     display: flex;
@@ -477,7 +479,7 @@
     justify-content: center;
 }
 
-.container-Renoir-2 {
+.container-Renoir-2 ,.container-degas-2,.container-gogh-2,.container-cezanne-2{
     width: 1400px;
     margin: 0 auto;
     display: flex;
@@ -486,7 +488,7 @@
     justify-content: space-between;
 }
 
-.Renoir-2{
+.Renoir-2,.degas-2,.gogh-2,.cezanne-2{
     width: 100%;
     display: flex;
     text-align: center;
@@ -497,12 +499,12 @@
     padding-bottom: 50px;
 }
 
-.Renoir-2 h1{
+.Renoir-2 h1, .degas-2 h1,.gogh-2 h1,.cezanne-2 h1{
     padding-bottom: 15px;
     border-bottom: 1px solid #fff
 }
 
-.container-Renoir-2 p{
+.container-Renoir-2 p, .container-degas-2 p,.container-gogh-2 p,.container-cezanne-2 p{
     color: #fff;
     font-weight: 300;
     font-size: 26px;
@@ -510,7 +512,7 @@
 }
 
 /* section04-Renoir*/
-#section04-Renoir{
+#section04-Renoir, #section04-Degas, #section04-Gogh, #section04-Cezanne{
     height: 982px;
     background-color: #000;
     display: flex;
@@ -520,7 +522,7 @@
     outline: 1px solid #fff;
 }
 
-.container-Renoir-3 {
+.container-Renoir-3, .container-degas-3 ,.container-gogh-3,.container-cezanne-3{
     width: 1400px;
     margin: 0 auto;
     display: flex;
@@ -529,7 +531,7 @@
     justify-content: space-between;
 }
 
-.Renoir-3{
+.Renoir-3,.degas-3,.gogh-3,.cezanne-3{
     width: 100%;
     display: flex;
     text-align: center;
@@ -540,12 +542,12 @@
     padding-bottom: 50px;
 }
 
-.Renoir-3 h1{
+.Renoir-3 h1, .degas-3 h1, .gogh-3 h1,.cezanne-3 h1{
     padding-bottom: 15px;
     border-bottom: 1px solid #fff;
 }
 
-.container-Renoir-3 p{
+.container-Renoir-3 p, .container-degas-3 p, .container-gogh-3 p,.container-cezanne-3 p{
     color: #fff;
     font-weight: 300;
     font-size: 26px;
@@ -560,6 +562,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    outline: 1px solid #fff;
 }
 
 .main-intro{
